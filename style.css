@@ -81,8 +81,7 @@ header .logo-glovo img {
   }
 }
 .container {
-  background: url(../img/bacg.jpg);
-  background-size: cover;
+  background: #ffc244;
   width: 100vw;
   height: 80vh;
   flex-direction: row;

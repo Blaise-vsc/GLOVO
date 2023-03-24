@@ -1,7 +1,6 @@
 .container {
   //   background-color: darkcyan;
-  background: url(../img/bacg.jpg);
-  background-size: cover;
+  background: $main-color;
   width: 100vw;
   height: 80vh;
   flex-direction: row;
