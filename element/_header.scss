@@ -1,0 +1,72 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $main-color;
+  padding: 2rem 10rem;
+  border: 2px solid rgba(45, 45, 45, 0);
+
+  .btn-header {
+    padding: 15px 40px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: none;
+    background: $sec-second;
+    border-radius: 25px;
+    color: $white;
+  }
+  .logo-glovo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 30px;
+    object-fit: cover;
+    img {
+      width: 200px;
+      height: 60px;
+      object-fit: cover;
+      // background: black;
+      margin: 10px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  header {
+    padding: 1rem 2rem;
+    background: white;
+    position: absolute;
+    width: 100%;
+
+    .logo-glovo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      height: 15px;
+      object-fit: cover;
+      img {
+        width: 100px;
+        height: 30px;
+        object-fit: cover;
+        // background: black;
+        margin: 10px;
+      }
+      .btn-header {
+        padding: 7px 20px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  header {
+    background: $main-color;
+    // box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    .btn-header {
+      padding: 4px 30px;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    }
+  }
+}

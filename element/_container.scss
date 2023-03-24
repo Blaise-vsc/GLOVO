@@ -1,0 +1,187 @@
+.container {
+  //   background-color: darkcyan;
+  background: $main-color;
+  width: 100vw;
+  height: 80vh;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10rem;
+  .video-animation {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    video {
+      width: 450px;
+      height: 450px;
+    }
+  }
+  .section-1-description {
+    width: 70%;
+    height: 100%;
+    // background: rgb(47, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    font-family: $arial;
+    h1 {
+      font-size: 50px;
+    }
+    p {
+      font-size: 17px;
+    }
+
+    .in-sec-1-descripion {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      //   gap: 30px;
+      flex-direction: row;
+      background-color: aliceblue;
+      width: 75%;
+      height: 90%;
+      border-radius: 10px;
+      .in-descripion-sec1 {
+        width: 50%;
+        height: 100%;
+        // background: blue;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        .in-dsc-seca {
+          width: 20%;
+          height: 100%;
+          background: $sec-second;
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+        }
+        .in-dsc-secb {
+          width: 80%;
+          height: 100%;
+          color: $sec-third;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+        }
+      }
+      .in-descripion-sec2 {
+        width: 50%;
+        height: 100%;
+        // background: rgb(51, 255, 0);
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        border-radius: 10px;
+        .in-dsc-seca {
+          width: 20%;
+          height: 100%;
+          //   background: $sec-second;
+          color: $sec-second;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+          border-radius: 10px;
+          .zoom {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 30px;
+            background: #baf4ea;
+          }
+        }
+        .in-dsc-secb {
+          width: 80%;
+          height: 100%;
+          color: $sec-third;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+          p {
+            color: $sec-second;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: 100vh;
+    padding: 0px;
+    gap: 10px;
+    padding: 2rem;
+    .video-animation {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 3rem;
+      video {
+        width: 300px;
+        height: 300px;
+      }
+    }
+    .section-1-description {
+      .in-sec-1-descripion {
+        .in-descripion-sec2 {
+          display: none;
+        }
+        .in-descripion-sec1 {
+          width: 100%;
+        }
+      }
+
+      .in-sec-1-descripion {
+        height: 18%;
+        width: 60%;
+      }
+    }
+
+    .section-1-description {
+      width: 100%;
+      height: 70%;
+      gap: 15px;
+      h1 {
+        font-size: 50px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding-top: 5.3rem;
+    .section-1-description {
+      .in-sec-1-descripion {
+        height: 30%;
+        width: 85%;
+      }
+      h1 {
+        font-size: 25px;
+      }
+    }
+  }
+}
