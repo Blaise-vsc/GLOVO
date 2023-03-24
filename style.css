@@ -240,6 +240,9 @@ header .logo-glovo img {
   .container {
     padding-top: 5.3rem;
   }
+  .container .section-1-description {
+    justify-content: start;
+  }
   .container .section-1-description .in-sec-1-descripion {
     height: 13%;
     width: 85%;
