@@ -221,6 +221,9 @@ header .logo-glovo img {
     width: 300px;
     height: 300px;
   }
+  .container .section-1-description {
+    padding-top: 2rem;
+  }
   .container .section-1-description .current-location {
     display: block;
   }
