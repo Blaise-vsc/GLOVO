@@ -113,6 +113,9 @@ header .logo-glovo img {
   flex-direction: column;
   font-family: arial;
 }
+.container .section-1-description .current-location {
+  display: none;
+}
 .container .section-1-description h1 {
   font-size: 50px;
 }
@@ -217,6 +220,13 @@ header .logo-glovo img {
   .container .video-animation video {
     width: 300px;
     height: 300px;
+  }
+  .container .section-1-description .current-location {
+    display: block;
+  }
+  .container .section-1-description .current-location p {
+    font-weight: bolder;
+    color: #00a082;
   }
   .container .section-1-description .in-sec-1-descripion .in-descripion-sec2 {
     display: none;

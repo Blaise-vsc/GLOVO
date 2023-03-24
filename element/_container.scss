@@ -31,6 +31,9 @@
     gap: 30px;
     flex-direction: column;
     font-family: $arial;
+    .current-location {
+      display: none;
+    }
     h1 {
       font-size: 50px;
     }
@@ -48,6 +51,7 @@
       width: 75%;
       height: 90%;
       border-radius: 10px;
+
       .in-descripion-sec1 {
         width: 50%;
         height: 100%;
@@ -143,6 +147,13 @@
       }
     }
     .section-1-description {
+      .current-location {
+        display: block;
+        p {
+          font-weight: bolder;
+          color: $sec-second;
+        }
+      }
       .in-sec-1-descripion {
         .in-descripion-sec2 {
           display: none;
