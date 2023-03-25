@@ -1,0 +1,101 @@
+.sec-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 8rem 8rem;
+  .h1-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    h1 {
+      font-size: 40px;
+    }
+  }
+  .sec-container-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 90%;
+    padding: 2rem;
+    .sec-in-4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      //   gap: 15px;
+      width: 50%;
+      height: 100%;
+      .in-element {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        p {
+          padding: 5px 20px;
+          background: $main-color;
+          border-radius: 10px;
+          font-weight: bolder;
+          bottom: 15%;
+          left: 30%;
+        }
+        .in-image {
+          width: 130px;
+          height: 130px;
+          object-fit: cover;
+          border-radius: 40px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .sec-container {
+    padding: 2rem 1rem;
+    justify-content: start;
+    align-items: center;
+    .h1-div {
+      h1 {
+        font-size: 26px;
+      }
+    }
+    .sec-container-div {
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      .sec-in-4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        height: 50%;
+        gap: 0px;
+        flex-wrap: wrap;
+        .in-element {
+          width: 22%;
+          .in-image {
+            width: 90px;
+            height: 90px;
+            object-fit: cover;
+            border-radius: 40px;
+          }
+          p {
+            padding: 5px 10px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
