@@ -362,8 +362,8 @@ header .logo-glovo img {
     flex-wrap: wrap;
   }
   .sec-container .sec-container-div .sec-in-4 .in-element .in-image {
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     -o-object-fit: cover;
        object-fit: cover;
     border-radius: 40px;
@@ -371,5 +371,27 @@ header .logo-glovo img {
   .sec-container .sec-container-div .sec-in-4 .in-element p {
     padding: 5px 10px;
     font-size: 15px;
+    bottom: 23%;
+  }
+}
+@media (max-width: 480px) {
+  .sec-container {
+    justify-content: center;
+    align-items: center;
+  }
+  .sec-container .sec-container-div {
+    gap: 20px;
+  }
+  .sec-container .sec-container-div .sec-in-4 .in-element .in-image {
+    width: 98px;
+    height: 98px;
+  }
+  .sec-container .h1-div {
+    background-color: #00a082;
+    padding: 20px;
+  }
+  .sec-container .h1-div h1 {
+    color: white;
+    font-size: 20px;
   }
 }/*# sourceMappingURL=style.css.map */

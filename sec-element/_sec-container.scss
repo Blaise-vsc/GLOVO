@@ -106,9 +106,22 @@
   .sec-container {
     justify-content: center;
     align-items: center;
+    .sec-container-div {
+      gap: 20px;
+      .sec-in-4 {
+        .in-element {
+          .in-image {
+            width: 98px;
+            height: 98px;
+          }
+        }
+      }
+    }
     .h1-div {
+      background-color: $sec-second;
       padding: 20px;
       h1 {
+        color: white;
         font-size: 20px;
       }
     }
