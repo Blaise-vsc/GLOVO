@@ -87,14 +87,14 @@
           height: 50%;
           flex-wrap: wrap;
           .in-image {
-            width: 90px;
-            height: 90px;
+            width: 120px;
+            height: 120px;
             object-fit: cover;
             border-radius: 40px;
           }
           p {
             padding: 5px 10px;
-            font-size: 12px;
+            font-size: 15px;
           }
         }
       }

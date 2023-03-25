@@ -362,14 +362,14 @@ header .logo-glovo img {
     flex-wrap: wrap;
   }
   .sec-container .sec-container-div .sec-in-4 .in-element .in-image {
-    width: 90px;
-    height: 90px;
+    width: 120px;
+    height: 120px;
     -o-object-fit: cover;
        object-fit: cover;
     border-radius: 40px;
   }
   .sec-container .sec-container-div .sec-in-4 .in-element p {
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: 15px;
   }
 }/*# sourceMappingURL=style.css.map */
