@@ -87,16 +87,29 @@
           height: 50%;
           flex-wrap: wrap;
           .in-image {
-            width: 120px;
-            height: 120px;
+            width: 110px;
+            height: 110px;
             object-fit: cover;
             border-radius: 40px;
           }
           p {
             padding: 5px 10px;
             font-size: 15px;
+            bottom: 23%;
           }
         }
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  .sec-container {
+    justify-content: center;
+    align-items: center;
+    .h1-div {
+      padding: 20px;
+      h1 {
+        font-size: 20px;
       }
     }
   }
