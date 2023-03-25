@@ -94,6 +94,7 @@ header .logo-glovo img {
   align-items: center;
   justify-content: space-between;
   padding: 9rem;
+  gap: 2rem;
 }
 .container .video-animation {
   width: 35%;
@@ -376,6 +377,10 @@ header .logo-glovo img {
 }
 @media (max-width: 480px) {
   .sec-container {
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-bottom: 1rem;
+    padding-top: 0px;
     justify-content: center;
     align-items: center;
   }

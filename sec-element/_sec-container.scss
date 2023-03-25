@@ -104,6 +104,10 @@
 }
 @media (max-width: 480px) {
   .sec-container {
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-bottom: 1rem;
+    padding-top: 0px;
     justify-content: center;
     align-items: center;
     .sec-container-div {
