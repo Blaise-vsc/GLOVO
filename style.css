@@ -357,7 +357,9 @@ header .logo-glovo img {
     flex-wrap: wrap;
   }
   .sec-container .sec-container-div .sec-in-4 .in-element {
-    width: 22%;
+    width: 50%;
+    height: 50%;
+    flex-wrap: wrap;
   }
   .sec-container .sec-container-div .sec-in-4 .in-element .in-image {
     width: 90px;

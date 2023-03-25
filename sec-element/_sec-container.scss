@@ -83,7 +83,9 @@
         gap: 0px;
         flex-wrap: wrap;
         .in-element {
-          width: 22%;
+          width: 50%;
+          height: 50%;
+          flex-wrap: wrap;
           .in-image {
             width: 90px;
             height: 90px;
