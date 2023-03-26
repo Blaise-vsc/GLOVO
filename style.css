@@ -632,6 +632,7 @@ header .logo-glovo img {
     height: 40%;
     gap: 30px;
     border: 1px solid tomato;
+    border-style: dotted;
   }
 }
 .fith-container {
