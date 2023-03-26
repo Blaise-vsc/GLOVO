@@ -777,7 +777,7 @@ header .logo-glovo img {
     width: 100px;
   }
 }
-@media (max-width: 680px) {
+@media (max-width: 480px) {
   .six-container {
     padding: 15px;
   }
