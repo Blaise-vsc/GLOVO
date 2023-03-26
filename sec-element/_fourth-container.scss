@@ -1,0 +1,46 @@
+.fourth-container {
+  background-color: $main-color;
+  padding: 3rem 5rem;
+  gap: 50px;
+  .fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 17px;
+  }
+  .fth-a-segon {
+    height: 30%;
+  }
+  .fth-a {
+    height: 40%;
+    .cities {
+      padding: 10px 25px;
+      background: $sec-second;
+      color: white;
+      border-radius: 20px;
+    }
+    .in-image-fth {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    .div-fth {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      p {
+        padding: 5px 20px;
+        background: white;
+        border-radius: 25px;
+      }
+    }
+  }
+  .fth-b {
+    height: 30%;
+  }
+}
