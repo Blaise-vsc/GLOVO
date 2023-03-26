@@ -636,9 +636,16 @@ header .logo-glovo img {
   }
 }
 .fith-container {
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 0rem;
+  padding-top: 0rem;
+  padding-right: 0rem;
   flex-direction: row;
   justify-content: space-between;
+}
+.fith-container .fith-elmnt-bg {
+  background: url(https://res.cloudinary.com/glovoapp/image/fetch/w_720,h_793,c_lpad,b_transparent,f_auto,q_auto:low,dpr_2.0/https://glovoapp.com/images/landing/download-app-desktop.png);
+  background-size: cover;
 }
 .fith-container .fith-element {
   width: 45%;
@@ -671,8 +678,8 @@ header .logo-glovo img {
   color: #9fa8b6;
 }
 .fith-container .fith-element .in-image-five {
-  width: 150px;
-  height: 150px;
+  width: 80px;
+  height: 80px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -683,5 +690,10 @@ header .logo-glovo img {
   }
   .fith-container .fith-element {
     width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .fith-container .fith-element h2 {
+    font-size: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
