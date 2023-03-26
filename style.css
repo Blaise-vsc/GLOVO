@@ -570,6 +570,9 @@ header .logo-glovo img {
     width: 90px;
     height: 90px;
   }
+  .rd-container .rd-in-img .in-element .description .tittle {
+    font-size: 20px;
+  }
   .rd-container .rd-in-img .in-element .description .descrisption-in {
     font-size: 15px;
   }
