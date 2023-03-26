@@ -612,6 +612,7 @@ header .logo-glovo img {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 .fourth-container .fth-a .div-fth p {
   padding: 5px 20px;
@@ -622,6 +623,17 @@ header .logo-glovo img {
   height: 30%;
 }
 
+@media (max-width: 480px) {
+  .fourth-container {
+    padding: 3rem 2rem;
+    gap: 40px;
+  }
+  .fourth-container .fth-a {
+    height: 40%;
+    gap: 30px;
+    border: 1px solid tomato;
+  }
+}
 .fith-container {
   padding: 2rem;
   flex-direction: row;
