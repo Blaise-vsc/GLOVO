@@ -39,3 +39,11 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .fith-container {
+    flex-direction: column;
+    .fith-element {
+      width: 100%;
+    }
+  }
+}

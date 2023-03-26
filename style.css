@@ -675,4 +675,13 @@ header .logo-glovo img {
   height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .fith-container {
+    flex-direction: column;
+  }
+  .fith-container .fith-element {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
