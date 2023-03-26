@@ -643,6 +643,7 @@ header .logo-glovo img {
   padding-bottom: 0rem;
   padding-top: 0rem;
   padding-right: 0rem;
+  z-index: 100;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -779,6 +780,7 @@ header .logo-glovo img {
 }
 @media (max-width: 480px) {
   .six-container {
+    z-index: -1;
     padding: 15px;
   }
   .six-container .six-sec-div {
@@ -786,6 +788,9 @@ header .logo-glovo img {
   }
   .six-container .six-sec-div .six-div-in {
     padding: 0px;
+  }
+  .six-container .six-sec-div .six-div-in .six-img-in {
+    width: 100px;
   }
   .six-container .six-siv {
     height: 13%;

@@ -78,11 +78,15 @@
 }
 @media (max-width: 480px) {
   .six-container {
+    z-index: -1;
     padding: 15px;
     .six-sec-div {
       height: 87%;
       .six-div-in {
         padding: 0px;
+        .six-img-in {
+          width: 100px;
+        }
       }
     }
     .six-siv {
