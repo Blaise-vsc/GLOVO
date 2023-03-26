@@ -332,7 +332,7 @@ header .logo-glovo img {
   flex-direction: row;
   width: 100%;
   height: 90%;
-  padding: 0rem 2rem;
+  padding: 2rem 6rem;
 }
 .sec-container .sec-container-div .sec-in-4 {
   display: flex;
@@ -361,7 +361,7 @@ header .logo-glovo img {
   position: absolute;
   bottom: 7%;
   left: 30%;
-  rotate: 10deg;
+  rotate: 6deg;
 }
 .sec-container .sec-container-div .sec-in-4 .in-element .in-image {
   width: 130px;
@@ -698,5 +698,84 @@ header .logo-glovo img {
 @media (max-width: 480px) {
   .fith-container .fith-element h2 {
     font-size: 30px;
+  }
+}
+.six-container {
+  background: #e9f8f5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 4rem;
+  gap: 5px;
+}
+.six-container .six-siv {
+  width: 100%;
+  height: 30%;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.six-container .six-siv .img-six {
+  width: 100px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.six-container .six-siv .in-six-div-tittle {
+  font-size: 45px;
+}
+.six-container .six-sec-div {
+  width: 100%;
+  height: 70%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.six-container .six-sec-div .six-div-in {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 15px;
+}
+.six-container .six-sec-div .six-div-in .btn-six-div-in {
+  font-size: 20px;
+  padding: 5px 50px;
+  font-weight: bolder;
+  border-radius: 25px;
+  color: #ffffff;
+  background: #00a082;
+  border: none;
+}
+.six-container .six-sec-div .six-div-in .six-img-in {
+  width: 220px;
+  width: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .six-container .six-siv {
+    height: 20%;
+  }
+  .six-container .six-sec-div {
+    flex-direction: column;
+  }
+  .six-container .six-sec-div .six-div-in {
+    width: 100%;
+    gap: 8px;
+  }
+  .six-container .six-sec-div .six-div-in .six-img-in {
+    width: 100px;
+    width: 100px;
   }
 }/*# sourceMappingURL=style.css.map */
