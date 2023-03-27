@@ -455,6 +455,39 @@ header .logo-glovo img {
     font-size: 20px;
   }
 }
+@media (max-width: 320px) {
+  .sec-container {
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-bottom: 1rem;
+    padding-top: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec-container .sec-container-div {
+    gap: 5px;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: start;
+  }
+  .sec-container .sec-container-div .sec-in-4 .in-element p {
+    bottom: -8%;
+    left: 25%;
+    rotate: 0deg;
+  }
+  .sec-container .sec-container-div .sec-in-4 .in-element .in-image {
+    width: 80px;
+    height: 80px;
+  }
+  .sec-container .h1-div {
+    padding: 20px;
+  }
+  .sec-container .h1-div h1 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+}
 .rd-container {
   padding: 0px;
 }
@@ -577,6 +610,36 @@ header .logo-glovo img {
     font-size: 15px;
   }
 }
+@media (max-width: 320px) {
+  .rd-container {
+    padding: 0px;
+    gap: 0px;
+  }
+  .rd-container .h1-div {
+    height: 10%;
+  }
+  .rd-container .rd-in-img {
+    height: 95%;
+    width: 95%;
+    gap: 0px;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .rd-container .rd-in-img .in-element {
+    width: 100%;
+    padding: 0px;
+  }
+  .rd-container .rd-in-img .in-element .in-image {
+    width: 50px;
+    height: 50px;
+  }
+  .rd-container .rd-in-img .in-element .description .tittle {
+    font-size: 20px;
+  }
+  .rd-container .rd-in-img .in-element .description .descrisption-in {
+    font-size: 15px;
+  }
+}
 .fourth-container {
   background-color: #ffc244;
   padding: 3rem 5rem;
@@ -630,6 +693,21 @@ header .logo-glovo img {
   .fourth-container {
     padding: 3rem 2rem;
     gap: 40px;
+  }
+  .fourth-container .fth-a {
+    height: 40%;
+    gap: 30px;
+    border: 1px solid tomato;
+    border-style: dotted;
+  }
+}
+@media (max-width: 320px) {
+  .fourth-container {
+    padding: 1rem 1rem;
+    gap: 5px;
+  }
+  .fourth-container img {
+    display: none;
   }
   .fourth-container .fth-a {
     height: 40%;
@@ -699,6 +777,15 @@ header .logo-glovo img {
 @media (max-width: 480px) {
   .fith-container .fith-element h2 {
     font-size: 30px;
+  }
+}
+@media (max-width: 320px) {
+  .fith-container .fith-element h2 {
+    font-size: 15px;
+  }
+  .fith-container .fith-element .in-image-five {
+    width: 80px;
+    height: 80px;
   }
 }
 .six-container {
@@ -797,6 +884,11 @@ header .logo-glovo img {
   }
   .six-container .six-siv .in-six-div-tittle {
     font-size: 30px;
+  }
+}
+@media (max-width: 320px) {
+  .six-container {
+    display: none;
   }
 }
 .last-container {

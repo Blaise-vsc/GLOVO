@@ -58,3 +58,18 @@
     }
   }
 }
+@media (max-width: 320px) {
+  .fourth-container {
+    padding: 1rem 1rem;
+    gap: 5px;
+    img {
+      display: none;
+    }
+    .fth-a {
+      height: 40%;
+      gap: 30px;
+      border: 1px solid tomato;
+      border-style: dotted;
+    }
+  }
+}
