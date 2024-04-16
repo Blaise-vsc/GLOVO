@@ -904,7 +904,7 @@ header .logo-glovo img {
   align-items: center;
   justify-content: center;
   gap: 40px;
-  padding: 25px;
+  padding: 35px;
 }
 @media (max-width: 768px) {
   .secform {
@@ -946,4 +946,5 @@ header .logo-glovo img {
   padding: 6px;
   background-color: rgba(0, 0, 255, 0.518);
   border-radius: 8px;
+  width: 55px;
 }/*# sourceMappingURL=style.css.map */
