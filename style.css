@@ -895,4 +895,28 @@ header .logo-glovo img {
     height: 15%;
     padding: 2rem;
   }
+}
+.myform {
+  background-color: rgba(0, 0, 255, 0.485);
+  width: 40vw;
+  min-height: 60vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+}
+.myform .nave {
+  width: 100%;
+  height: 13%;
+}
+.myform .nave .form-field {
+  display: flex;
+  flex-direction: column;
+}
+.myform .nave .form-field label {
+  width: 40%;
+}
+.myform .nave .form-field input {
+  width: 60%;
 }/*# sourceMappingURL=style.css.map */
