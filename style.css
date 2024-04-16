@@ -909,6 +909,7 @@ header .logo-glovo img {
 @media (max-width: 768px) {
   .secform {
     flex-direction: column;
+    padding: 20px;
   }
 }
 
@@ -923,7 +924,8 @@ header .logo-glovo img {
 }
 @media (max-width: 768px) {
   .myform {
-    width: 100vw;
+    padding: 30px;
+    width: 100%;
   }
 }
 .myform .form-field {
@@ -941,10 +943,32 @@ header .logo-glovo img {
   height: 30px;
   padding-left: 4px;
 }
+@media (max-width: 768px) {
+  .myform .form-field {
+    padding: 15px;
+    width: 100%;
+  }
+  .myform .form-field label {
+    height: 40%;
+    font-size: 30px;
+  }
+  .myform .form-field input {
+    height: 45px;
+    padding-left: 4px;
+    font-size: 30px;
+  }
+}
 
 .subtn {
   padding: 6px;
   background-color: rgba(0, 0, 255, 0.518);
   border-radius: 8px;
   width: 55px;
+}
+@media (max-width: 768px) {
+  .subtn {
+    width: 100px;
+    height: 55px;
+    margin-left: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */

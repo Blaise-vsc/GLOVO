@@ -9,6 +9,7 @@
   padding: 35px;
   @media (max-width: 768px) {
     flex-direction: column;
+    padding: 20px;
   }
 }
 .myform {
@@ -20,10 +21,11 @@
   justify-content: center;
   gap: 10px;
   flex-direction: column;
-
   @media (max-width: 768px) {
-    width: 100vw;
+    padding: 30px;
+    width: 100%;
   }
+
   .form-field {
     height: 14%;
     width: 100%;
@@ -38,6 +40,20 @@
       height: 30px;
       padding-left: 4px;
     }
+    @media (max-width: 768px) {
+      padding: 15px;
+      width: 100%;
+      label {
+        height: 40%;
+
+        font-size: 30px;
+      }
+      input {
+        height: 45px;
+        padding-left: 4px;
+        font-size: 30px;
+      }
+    }
   }
 }
 .subtn {
@@ -45,4 +61,9 @@
   background-color: rgba(0, 0, 255, 0.518);
   border-radius: 8px;
   width: 55px;
+  @media (max-width: 768px) {
+    width: 100px;
+    height: 55px;
+    margin-left: 10px;
+  }
 }
